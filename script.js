@@ -25,5 +25,6 @@ phoneInput.addEventListener('input', function() {
   detectProvider(phoneNumber);
   if (phoneInput.value === "") {
     error.classList.remove('errormsg')
+    providerLogo.classList.remove('mtn');
   }
 });
